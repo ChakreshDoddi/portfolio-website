@@ -69,7 +69,9 @@ export default function SkillsSection() {
           {skillCategories.map((category, index) => (
             <div key={index} className="glassmorphism p-8 rounded-xl card-hover" data-testid={`skill-card-${category.title.toLowerCase().replace(/\s+/g, '-')}`}>
               <div className="flex items-center mb-6">
-                <category.icon className={`text-2xl ${category.color} mr-4`} />
+                <div className="p-3 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 mr-4 animate-pulse">
+                  <category.icon className={`text-3xl ${category.color} drop-shadow-lg`} />
+                </div>
                 <h3 className="text-xl font-semibold">{category.title}</h3>
               </div>
               
@@ -104,11 +106,13 @@ export default function SkillsSection() {
               
               
               {category.items && (
-                <div className="space-y-2 text-sm">
+                <div className="space-y-3 text-sm">
                   {category.items.map((item, itemIndex) => (
                     <div key={itemIndex} className="flex items-center">
-                      <span className={`${category.color} mr-2`}>{item.icon}</span>
-                      <span>{item.name}</span>
+                      <div className="p-2 rounded-lg bg-gradient-to-br from-purple-500/20 to-pink-500/20 mr-3 animate-pulse">
+                        <span className="text-lg drop-shadow-lg">{item.icon}</span>
+                      </div>
+                      <span className="font-medium">{item.name}</span>
                     </div>
                   ))}
                 </div>

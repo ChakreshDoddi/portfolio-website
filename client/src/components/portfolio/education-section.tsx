@@ -38,7 +38,9 @@ export default function EducationSection() {
           {education.map((edu, index) => (
             <div key={index} className="glassmorphism p-8 rounded-xl card-hover" data-testid={`education-card-${index}`}>
               <div className="flex items-center mb-6">
-                <edu.icon className={`text-3xl ${edu.color} mr-4`} />
+                <div className="p-4 rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 mr-4 animate-pulse">
+                  <edu.icon className={`text-4xl ${edu.color} drop-shadow-lg`} />
+                </div>
                 <div>
                   <h3 className="text-xl font-semibold" data-testid={`education-degree-${index}`}>
                     {edu.degree}

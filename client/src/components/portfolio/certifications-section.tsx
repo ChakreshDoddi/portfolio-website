@@ -67,11 +67,13 @@ export default function CertificationsSection() {
           {certifications.map((cert, index) => (
             <div key={index} className="glassmorphism p-6 rounded-xl card-hover" data-testid={`certification-${index}`}>
               <div className="flex items-center mb-4">
-                {typeof cert.icon === 'string' ? (
-                  <span className="text-2xl mr-3">{cert.icon}</span>
-                ) : (
-                  <cert.icon className="text-2xl text-accent mr-3" />
-                )}
+                <div className="p-4 rounded-xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 mr-4 animate-glow">
+                  {typeof cert.icon === 'string' ? (
+                    <span className="text-3xl drop-shadow-lg">{cert.icon}</span>
+                  ) : (
+                    <cert.icon className="text-3xl text-blue-400 drop-shadow-lg" />
+                  )}
+                </div>
                 <div>
                   <h3 className="font-semibold" data-testid={`certification-title-${index}`}>
                     {cert.title}
@@ -98,7 +100,9 @@ export default function CertificationsSection() {
             {achievements.map((achievement, index) => (
               <div key={index} className="glassmorphism p-6 rounded-xl card-hover" data-testid={`achievement-${index}`}>
                 <div className="flex items-center mb-4">
-                  <achievement.icon className={`text-2xl ${achievement.color} mr-4`} />
+                  <div className="p-3 rounded-xl bg-gradient-to-br from-amber-500/20 to-orange-500/20 mr-4 animate-float">
+                    <achievement.icon className={`text-3xl ${achievement.color} drop-shadow-lg`} />
+                  </div>
                   <div>
                     <h4 className="font-semibold" data-testid={`achievement-title-${index}`}>
                       {achievement.title}
