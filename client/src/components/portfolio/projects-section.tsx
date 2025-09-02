@@ -91,11 +91,7 @@ export default function ProjectsSection() {
                   {project.technologies.map((tech, techIndex) => (
                     <span 
                       key={techIndex}
-                      className={`px-2 py-1 rounded text-xs ${
-                        techIndex % 3 === 0 ? 'bg-primary/20 text-primary' :
-                        techIndex % 3 === 1 ? 'bg-secondary/20 text-secondary' :
-                        'bg-accent/20 text-accent'
-                      }`}
+                      className="px-2 py-1 rounded text-xs bg-secondary/20 text-[#9767e4]"
                       data-testid={`project-tech-${index}-${techIndex}`}
                     >
                       {tech}
