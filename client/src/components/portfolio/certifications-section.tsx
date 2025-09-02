@@ -69,7 +69,7 @@ export default function CertificationsSection() {
               <div className="flex items-center mb-4">
                 <div className="p-4 rounded-xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 mr-4 animate-glow">
                   {typeof cert.icon === 'string' ? (
-                    <span className="text-3xl drop-shadow-lg">{cert.icon}</span>
+                    <span className="text-3xl drop-shadow-lg text-foreground">{cert.icon}</span>
                   ) : (
                     <cert.icon className="text-3xl text-blue-600 dark:text-blue-400 drop-shadow-lg" />
                   )}
@@ -84,7 +84,7 @@ export default function CertificationsSection() {
                 </div>
               </div>
               <div className="flex items-center">
-                <span className="px-3 py-1 bg-accent/20 rounded-full text-xs text-[#9767e4]">
+                <span className={`px-3 py-1 bg-${cert.statusColor}/20 text-${cert.statusColor} rounded-full text-xs`}>
                   {cert.status}
                 </span>
               </div>

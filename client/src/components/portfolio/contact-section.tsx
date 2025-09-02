@@ -75,7 +75,7 @@ export default function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-center" data-testid="contact-email">
                   <div className="p-3 rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 mr-4 animate-pulse">
-                    <Mail className="text-2xl text-blue-500 dark:text-blue-400 drop-shadow-lg" />
+                    <Mail className="text-2xl text-blue-600 dark:text-blue-400 drop-shadow-lg" />
                   </div>
                   <div>
                     <p className="font-medium">Email</p>

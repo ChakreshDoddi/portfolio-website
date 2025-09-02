@@ -110,7 +110,7 @@ export default function SkillsSection() {
                   {category.items.map((item, itemIndex) => (
                     <div key={itemIndex} className="flex items-center">
                       <div className="p-2 rounded-lg bg-gradient-to-br from-purple-500/20 to-pink-500/20 mr-3 animate-pulse">
-                        <span className="text-lg drop-shadow-lg">{item.icon}</span>
+                        <span className="text-lg drop-shadow-lg text-foreground">{item.icon}</span>
                       </div>
                       <span className="font-medium">{item.name}</span>
                     </div>
