@@ -64,11 +64,7 @@ export default function ExperienceSection() {
         <div className="max-w-4xl mx-auto">
           {experiences.map((experience, index) => (
             <div key={index} className="relative pl-8 pb-12 last:pb-0" data-testid={`experience-item-${index}`}>
-              <div className={`absolute left-0 top-0 w-4 h-4 bg-gradient-to-r ${
-                experience.color === 'primary' ? 'from-primary to-secondary' :
-                experience.color === 'secondary' ? 'from-secondary to-accent' :
-                'from-accent to-primary'
-              } rounded-full`}></div>
+              <div className="absolute left-0 top-0 w-4 h-4 bg-gradient-to-r from-secondary to-accent rounded-full text-[#9767e4]"></div>
               {index < experiences.length - 1 && (
                 <div className={`absolute left-2 top-4 w-0.5 h-full bg-gradient-to-b ${
                   experience.color === 'primary' ? 'from-primary/50' :
