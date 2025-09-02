@@ -28,8 +28,8 @@ export default function SkillsSection() {
       icon: Database,
       title: "Databases",
       color: "text-primary",
-      sqlDbs: ["PostgreSQL", "MySQL", "Oracle 12c/19c"],
-      nosqlDbs: ["MongoDB", "DynamoDB", "Redis"]
+      sqlDbs: ["MySQL", "PostgreSQL", "Oracle 12c/19c"],
+      nosqlDbs: ["MongoDB", "DynamoDB"]
     },
     {
       icon: CheckCircle,
