@@ -75,11 +75,7 @@ export default function EducationSection() {
                       {edu.focus.map((area, areaIndex) => (
                         <span 
                           key={areaIndex}
-                          className={`px-3 py-1 rounded-full text-xs ${
-                            areaIndex % 3 === 0 ? 'bg-primary/20 text-primary' :
-                            areaIndex % 3 === 1 ? 'bg-secondary/20 text-secondary' :
-                            'bg-accent/20 text-accent'
-                          }`}
+                          className="px-3 py-1 rounded-full text-xs bg-secondary/20 text-[#9767e4]"
                           data-testid={`education-focus-${index}-${areaIndex}`}
                         >
                           {area}
