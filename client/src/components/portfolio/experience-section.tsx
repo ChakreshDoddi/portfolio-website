@@ -80,7 +80,7 @@ export default function ExperienceSection() {
               <div className="glassmorphism p-6 rounded-xl ml-6 card-hover">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <div>
-                    <h3 className={`text-xl font-semibold text-${experience.color}`} data-testid={`experience-title-${index}`}>
+                    <h3 className="text-xl font-semibold text-[#9767e4]" data-testid={`experience-title-${index}`}>
                       {experience.title}
                     </h3>
                     <p className="text-muted-foreground" data-testid={`experience-company-${index}`}>
