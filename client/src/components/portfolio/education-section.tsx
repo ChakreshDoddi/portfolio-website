@@ -63,7 +63,7 @@ export default function EducationSection() {
                 
                 <div className="flex items-center justify-between">
                   <span>GPA</span>
-                  <span className={`font-bold ${edu.color} text-lg`} data-testid={`education-gpa-${index}`}>
+                  <span className="font-bold text-lg text-[#9767e4]" data-testid={`education-gpa-${index}`}>
                     {edu.gpa}
                   </span>
                 </div>
