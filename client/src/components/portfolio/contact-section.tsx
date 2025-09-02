@@ -75,7 +75,7 @@ export default function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-center" data-testid="contact-email">
                   <div className="p-3 rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 mr-4 animate-pulse">
-                    <Mail className="text-2xl text-blue-400 drop-shadow-lg" />
+                    <Mail className="text-2xl text-blue-500 dark:text-blue-400 drop-shadow-lg" />
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
@@ -85,7 +85,7 @@ export default function ContactSection() {
                 
                 <div className="flex items-center" data-testid="contact-phone">
                   <div className="p-3 rounded-xl bg-gradient-to-br from-green-500/20 to-emerald-500/20 mr-4 animate-pulse">
-                    <Phone className="text-2xl text-green-400 drop-shadow-lg" />
+                    <Phone className="text-2xl text-green-600 dark:text-green-400 drop-shadow-lg" />
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
@@ -95,7 +95,7 @@ export default function ContactSection() {
                 
                 <div className="flex items-center" data-testid="contact-location">
                   <div className="p-3 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 mr-4 animate-pulse">
-                    <MapPin className="text-2xl text-purple-400 drop-shadow-lg" />
+                    <MapPin className="text-2xl text-purple-600 dark:text-purple-400 drop-shadow-lg" />
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
@@ -109,17 +109,17 @@ export default function ContactSection() {
                 <div className="flex space-x-4">
                   <div className="p-3 rounded-xl bg-gradient-to-br from-blue-600/20 to-blue-400/20 animate-glow hover:scale-110 transition-transform">
                     <a href="https://linkedin.com/in/chakresh-doddi" data-testid="contact-linkedin">
-                      <Linkedin className="h-6 w-6 text-blue-400 drop-shadow-lg hover:text-blue-300" />
+                      <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400 drop-shadow-lg hover:text-blue-500 dark:hover:text-blue-300" />
                     </a>
                   </div>
                   <div className="p-3 rounded-xl bg-gradient-to-br from-gray-600/20 to-gray-400/20 animate-glow hover:scale-110 transition-transform">
                     <a href="https://github.com/ChakreshDoddi" data-testid="contact-github">
-                      <Github className="h-6 w-6 text-gray-300 drop-shadow-lg hover:text-white" />
+                      <Github className="h-6 w-6 text-gray-700 dark:text-gray-300 drop-shadow-lg hover:text-gray-900 dark:hover:text-white" />
                     </a>
                   </div>
                   <div className="p-3 rounded-xl bg-gradient-to-br from-red-500/20 to-orange-500/20 animate-glow hover:scale-110 transition-transform">
                     <a href="mailto:chakreshdoddi2404@gmail.com" data-testid="contact-email-button">
-                      <Mail className="h-6 w-6 text-red-400 drop-shadow-lg hover:text-red-300" />
+                      <Mail className="h-6 w-6 text-red-600 dark:text-red-400 drop-shadow-lg hover:text-red-700 dark:hover:text-red-300" />
                     </a>
                   </div>
                 </div>

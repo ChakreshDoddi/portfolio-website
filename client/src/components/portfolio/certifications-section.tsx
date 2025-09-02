@@ -71,7 +71,7 @@ export default function CertificationsSection() {
                   {typeof cert.icon === 'string' ? (
                     <span className="text-3xl drop-shadow-lg">{cert.icon}</span>
                   ) : (
-                    <cert.icon className="text-3xl text-blue-400 drop-shadow-lg" />
+                    <cert.icon className="text-3xl text-blue-600 dark:text-blue-400 drop-shadow-lg" />
                   )}
                 </div>
                 <div>

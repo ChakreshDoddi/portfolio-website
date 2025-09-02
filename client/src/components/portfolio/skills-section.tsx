@@ -96,7 +96,7 @@ export default function SkillsSection() {
                   {category.badges.map((badge, badgeIndex) => (
                     <span 
                       key={badgeIndex}
-                      className="tech-badge px-3 py-1 bg-secondary/20 rounded-full text-sm text-[#f8fafc]"
+                      className="tech-badge px-3 py-1 bg-secondary/20 rounded-full text-sm text-foreground"
                     >
                       {badge}
                     </span>
