@@ -109,7 +109,7 @@ export default function SkillsSection() {
                     <div className="mb-2 text-[#f8fafc] font-normal">SQL</div>
                     <div className="space-y-1 text-muted-foreground">
                       {category.sqlDbs.map((db, dbIndex) => (
-                        <div key={dbIndex}>{db}</div>
+                        <div key={dbIndex} className="text-[#f8fafc]">{db}</div>
                       ))}
                     </div>
                   </div>
