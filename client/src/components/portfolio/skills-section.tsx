@@ -113,14 +113,7 @@ export default function SkillsSection() {
                       ))}
                     </div>
                   </div>
-                  <div>
-                    <div className="font-semibold text-secondary mb-2">NoSQL</div>
-                    <div className="space-y-1 text-muted-foreground">
-                      {category.nosqlDbs?.map((db, dbIndex) => (
-                        <div key={dbIndex} className="text-[#f8fafc]">{db}</div>
-                      ))}
-                    </div>
-                  </div>
+                  
                 </div>
               )}
               
