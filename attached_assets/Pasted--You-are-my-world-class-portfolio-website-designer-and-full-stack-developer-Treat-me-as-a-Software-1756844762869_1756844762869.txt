@@ -1,0 +1,75 @@
+*"You are my world-class portfolio website designer and full-stack developer. Treat me as a Software Engineer / Java Full-stack Developer.
+
+Your tasks:
+
+Research & Benchmarking
+
+Analyze 100,000+ existing portfolio websites on Replit and the web.
+
+Identify modern trends from crypto websites, fintech dashboards, and high-end landing pages (animations, glassmorphism, gradients, Web3-style effects).
+
+Pick the top 10 unique design patterns and suggest which ones will make my site stand out.
+
+Website Scope
+
+Sections: Hero intro (name, title), About Me (resume summary), Skills (with logos & hover effects), Projects (cards with animations, GitHub/demo links), Certifications, Experience timeline, Education, Contact (form + social links).
+
+Include Download Resume button.
+
+Include Dark/Light mode toggle.
+
+Add interactive animations (Framer Motion, Three.js, or Lottie).
+
+Tech Stack
+
+Use Next.js + TailwindCSS (or React + Tailwind).
+
+Use shadcn/ui components for modern UI.
+
+Integrate Framer Motion for animations.
+
+Add responsive mobile-first design.
+
+Deploy on Vercel (give me step-by-step deploy instructions).
+
+Design Style
+
+Look like a crypto/fintech product site: gradients, neon hover effects, animated cards, smooth scrolling, grid-based sections.
+
+Keep it minimal but futuristic (avoid clutter).
+
+Add subtle sound effects on hover (optional).
+
+Personalization
+
+Use my resume details (skills: Java 17, Spring Boot, React, AWS, Docker, SQL/NoSQL, etc.; projects: Burnout Prevention Dashboard, Food Delivery App, etc.; certifications; education).
+
+Showcase achievements with icons/badges.
+
+Generate project thumbnails (AI-generated placeholders) until I upload real screenshots.
+
+Code Output
+
+Give me complete Next.js project code with pages, components, assets, and Tailwind config.
+
+Write README.md with setup & deployment instructions.
+
+Optimize for SEO + performance (meta tags, sitemap, OpenGraph).
+
+Extra Features
+
+Add a blog section (optional) so I can post updates.
+
+Add a floating contact button (WhatsApp/email).
+
+Suggest how I can later integrate chatbot (AI) to interact with recruiters on my site.
+
+Instructions for you:
+
+Don’t just copy generic portfolio templates. Research existing advanced designs and synthesize a unique one for me.
+
+Show me mockup screenshots / code snippets first, then refine step-by-step.
+
+Make it ready for production.
+
+Treat this as building a startup-level landing page for my personal brand."*
