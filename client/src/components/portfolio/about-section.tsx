@@ -1,3 +1,4 @@
+import _2025_08_14_10_07_08_100_0500 from "@assets/2025-08-14 10_07_08.100-0500.jpg";
 export default function AboutSection() {
   return (
     <section id="about" className="py-20 relative" data-testid="about-section">
@@ -37,9 +38,9 @@ export default function AboutSection() {
           
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+              src={_2025_08_14_10_07_08_100_0500} 
               alt="Chakresh Doddi - Professional Photo" 
-              className="w-full h-auto rounded-xl glassmorphism p-1 animate-float"
+              className="w-full h-auto rounded-xl glassmorphism p-1 animate-float pl-[2px] pr-[2px] pt-[2px] pb-[2px]"
               data-testid="about-photo"
             />
           </div>
