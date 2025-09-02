@@ -82,7 +82,7 @@ export default function CertificationsSection() {
                 </div>
               </div>
               <div className="flex items-center">
-                <span className={`px-3 py-1 bg-${cert.statusColor}/20 text-${cert.statusColor} rounded-full text-xs`}>
+                <span className="px-3 py-1 bg-accent/20 rounded-full text-xs text-[#9767e4]">
                   {cert.status}
                 </span>
               </div>
