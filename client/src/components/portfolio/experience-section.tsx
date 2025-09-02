@@ -64,13 +64,9 @@ export default function ExperienceSection() {
         <div className="max-w-4xl mx-auto">
           {experiences.map((experience, index) => (
             <div key={index} className="relative pl-8 pb-12 last:pb-0" data-testid={`experience-item-${index}`}>
-              <div className="absolute left-0 top-0 w-4 h-4 bg-gradient-to-r from-secondary to-accent rounded-full text-[#9767e4]"></div>
+              <div className="absolute left-0 top-0 w-4 h-4 bg-blue-500 rounded-full animate-pulse shadow-lg shadow-blue-500/50"></div>
               {index < experiences.length - 1 && (
-                <div className={`absolute left-2 top-4 w-0.5 h-full bg-gradient-to-b ${
-                  experience.color === 'primary' ? 'from-primary/50' :
-                  experience.color === 'secondary' ? 'from-secondary/50' :
-                  'from-accent/50'
-                } to-transparent`}></div>
+                <div className="absolute left-2 top-4 w-0.5 h-full bg-gradient-to-b from-blue-500/50 to-transparent"></div>
               )}
               
               <div className="glassmorphism p-6 rounded-xl ml-6 card-hover">

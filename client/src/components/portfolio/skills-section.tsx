@@ -102,19 +102,6 @@ export default function SkillsSection() {
                 </div>
               )}
               
-              {category.sqlDbs && (
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div>
-                    <div className="mb-2 text-[#f8fafc] font-normal">SQL</div>
-                    <div className="space-y-1 text-muted-foreground">
-                      {category.sqlDbs.map((db, dbIndex) => (
-                        <div key={dbIndex} className="text-[#f8fafc]">{db}</div>
-                      ))}
-                    </div>
-                  </div>
-                  
-                </div>
-              )}
               
               {category.items && (
                 <div className="space-y-2 text-sm">
