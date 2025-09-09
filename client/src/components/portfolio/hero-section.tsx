@@ -3,9 +3,8 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   const handleDownloadResume = () => {
-    // Create a download link for the resume
     const link = document.createElement("a");
-    link.href = "/api/download-resume";
+    link.href = "/resume.pdf";
     link.download = "Chakresh_Doddi_Resume.pdf";
     document.body.appendChild(link);
     link.click();
